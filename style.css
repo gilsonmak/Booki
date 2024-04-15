@@ -44,6 +44,11 @@ body {
     justify-content: center;
     margin: 0;
 }
+form{
+    width: 1,340px;
+    height: 281px;
+    gap: 35px;
+}
 
 .main-container {
     width: 100%;
