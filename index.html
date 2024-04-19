@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +12,6 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <div class="main-container">  
         <header>
@@ -28,13 +26,24 @@
                     <a href="#">Activités</a>
                 </div>
             </nav>
-
         </header>
         <main>
-            <form method="get" action="">
-                <p>Trouver votre hébergement pour des vacances de rêve</p>
-
-            </form>
+            <section class="search-bar__container">
+                <div class="search-bar__titles">
+                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                    <p>En plein centre-ville ou en pleine nature</p>
+                </div>
+                <form action="#" class="input-search">
+                    <label class="search-bar--icon"> 
+                        <i class="fa fa-location-dot"></i>
+                    </label>
+                    <input type="text" placeholder="Marseille, France" class="inputtext">
+                    <button type="submit" class="search-bar--button">
+                        <span>Rechercher</span>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </section>  
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
 

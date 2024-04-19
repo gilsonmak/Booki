@@ -27,8 +27,32 @@ header {
     color: #0065FC;
     border-top: 2px solid #0065FC;
   }
-  
-    
+  /*** Barre de recherche ***/
+  /* style  titre dans la barre de recherche*/
+  .search-bar_title h1{
+    font: 700;
+    size: 22px;
+    margin: 53px 0 8px 0;
+  }
+  .search-bar_title p{
+    font: 400;
+    size: 16px;
+    margin-bottom: 20px;
+  }
+  .input-search{
+    display: flex;
+  }
+  .search-bar--icon{
+    background-color:#F2F2F2;
+    width: 50px;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 0 0 15px;
+    border:1px solid #F2F2F2;
+  }
+
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
@@ -44,12 +68,6 @@ body {
     justify-content: center;
     margin: 0;
 }
-form{
-    width: 1,340px;
-    height: 281px;
-    gap: 35px;
-}
-
 .main-container {
     width: 100%;
     max-width: 1440px;
@@ -197,3 +215,15 @@ a {
 @media (max-width: 767.98px) {
     /* ... */
 }
+
+
+
+
+
+
+
+
+
+
+
+
