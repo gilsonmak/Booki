@@ -1,5 +1,4 @@
 /* Le code ci-dessous correspond à la version responsive uniquement */
-
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
@@ -14,7 +13,7 @@
 	.container-bouton {
 		flex-direction: row;
 	}
-	/* Boutons et changement d'opacité lors du survolement*/
+	/* Boutons et changement d'opacité lors du survolement */
 	.Bouton_filtre {
 		height: 50px;
 		font-size: 16px;
@@ -23,11 +22,11 @@
 	.hebergements-and-populaires {
 		flex-direction: column;
 	}
-	/*** Hébergement***/
+	/*** Hébergement ***/
 	.hebergements {
 		width: 100%;
 	}
-	/**** Popilaires***/
+	/**** Populaires ***/
 	.populaires {
 		width: 100%;
 		margin-top: 50px;
